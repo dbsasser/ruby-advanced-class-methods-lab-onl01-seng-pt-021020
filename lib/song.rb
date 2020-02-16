@@ -49,7 +49,7 @@ class Song
     file_name = file.split(" - ")
     artist= file_name[0]
     song = file_name[1]
-    song.length = song.length - 4
+    song.delete_suffix!(".mp3")
     
     new_song = self.new 
     new_song.name = song
