@@ -26,5 +26,6 @@ class Song
     song = self.new
     song.name = self.new
     song.save
+    song
   end
 end
