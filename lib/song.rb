@@ -52,5 +52,7 @@ class Song
     song.length = song.length - 4
     
     new_song = self.new 
-    s
+    new_song.name = song
+    new_song.artist = artist
+    
 end
