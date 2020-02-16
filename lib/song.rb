@@ -34,6 +34,6 @@ class Song
   end
   _
   def self.find_or_create_by_name(name)
-    if @@all.class.all 
+    if find_
     
 end
