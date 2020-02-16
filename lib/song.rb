@@ -41,6 +41,8 @@ class Song
     end
   end
   
-  
+  def self.alphabetical
+    song_array = []
+    self.all.each do |name
     
 end
