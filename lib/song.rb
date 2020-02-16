@@ -51,5 +51,6 @@ class Song
     song= file_name[1]
     song.length = song.length - 4
     
-    
+    new_song = self.new 
+    s
 end
