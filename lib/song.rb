@@ -46,7 +46,7 @@ class Song
   end
   
   def self.new_from_filename(file)
-    file_name = file.split(" - ")
+    file_name = file.chomp(".mp3").split(" - ")
     file_name[1].delete_suffix!(".mp3")
     artist = file_name[0]
     song = file_name[1]
